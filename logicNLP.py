@@ -198,6 +198,7 @@ def lok1_mix_sentences_in_text(text):
 
 
 # ***Закриваємо файл 
+readFile.close()
 
 if __name__ == "__main__":
 	readFile = open('savedtext.txt','r')
